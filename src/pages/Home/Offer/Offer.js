@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../../../images/sanitizer.png";
+import image2 from "../../../images/gear.png";
 
 const Offer = () => {
   return (

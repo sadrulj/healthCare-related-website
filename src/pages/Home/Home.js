@@ -3,7 +3,7 @@ import Banner from "./Banner/Banner";
 import Offer from "./Offer/Offer";
 import Services from "./Services/Services";
 import Newsletter from "./Newsletter/Newsletter";
-import SpecialOffer from "./SpecialOffer/SpecialOffer";
+import SpecialOfferShow from "./SpecialOffer/SpecialOfferShow";
 import Supplier from "./Supplier/Supplier";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       <Offer></Offer>
       <Services></Services>
       <Newsletter></Newsletter>
-      <SpecialOffer></SpecialOffer>
+      <SpecialOfferShow></SpecialOfferShow>
       <Supplier></Supplier>
     </div>
   );

@@ -1,0 +1,256 @@
+{
+    "medication": [
+      {
+        "id": 1001,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2019/01/5-15.jpg",
+        "title": "Vitamin C Tablet",
+        "material": "Plastic",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 60
+      },
+      {
+        "id": 1002,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-10.jpg",
+        "title": "Vitamin D3",
+        "material": "Steel",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 40
+      },
+      {
+        "id": 1003,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-9.jpg",
+        "title": "Folic Acid",
+        "material": "Plastic",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 89
+      },
+      {
+        "id": 1004,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/5-19.jpg",
+        "title": "Zinc Tablet",
+        "material": "Plastic",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 40
+      },
+      {
+        "id": 1005,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-7.jpg",
+        "title": "Vitamin B12",
+        "material": "steel",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 45
+      },
+      {
+        "id": 1006,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-15.jpg",
+        "title": "Vaccine",
+        "material": "Glass",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 777
+      },
+      {
+        "id": 1007,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-14.jpg",
+        "title": "Herbal Sanitizer",
+        "material": "Rubber",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 65
+      },
+      {
+        "id": 1008,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-12.jpg",
+        "title": "Antibiotic",
+        "material": "Glass",
+        "brand": "Accu-Chek",
+        "productType": "Medical",
+        "price": 45
+      },
+      {
+        "id": 1009,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-4.jpg",
+        "title": "Calcium Tablet",
+        "material": "Rubber",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 30
+      },
+      {
+        "id": 1010,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-6.jpg",
+        "title": "Band-Aid",
+        "material": "Fabric",
+        "brand": "Accu-Chek",
+        "productType": "Medical",
+        "price": 25
+      },
+      {
+        "id": 1011,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-5-2.jpg",
+        "title": "Classic Stethoscope",
+        "material": "Steel",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 455
+      },
+      {
+        "id": 1012,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/5-14.jpg",
+        "title": "Sanitizer Gel",
+        "material": "Plastic",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 55
+      },
+      {
+        "id": 1013,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-5-3.jpg",
+        "title": "Portable Nebulizer",
+        "material": "Plastic",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 1500
+      },
+      {
+        "id": 1014,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/5-16.jpg",
+        "title": "Facial Tissue",
+        "material": "Fabric",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 35
+      },
+      {
+        "id": 1015,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-5-4.jpg",
+        "title": "Grip Bandage",
+        "material": "Fabric",
+        "brand": "Exborders",
+        "productType": "Medical",
+        "price": 75
+      },
+      {
+        "id": 1016,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-5-5.jpg",
+        "title": "First Aid Kit",
+        "material": "Rubber",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 550
+      },
+      {
+        "id": 1017,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-5-6.jpg",
+        "title": "Hand Gloves",
+        "material": "Rubber",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 35
+      },
+      {
+        "id": 1018,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-5-7.jpg",
+        "title": "Patient Monitor",
+        "material": "Plastic",
+        "brand": "Staedtler",
+        "productType": "Medical",
+        "price": 3500
+      },
+      {
+        "id": 1019,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-1-1.jpg",
+        "title": "Non Contact Thermometer",
+        "material": "Plastic",
+        "brand": "Accu-Chek",
+        "productType": "Medical",
+        "price": 200
+      },
+      {
+        "id": 1020,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-5.jpg",
+        "title": "Thermometer",
+        "material": "Plastic",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 135
+      },
+      {
+        "id": 1021,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-8.jpg",
+        "title": "Iron Tablet",
+        "material": "Rubber",
+        "brand": "Accu-Chek",
+        "productType": "Medical",
+        "price": 90
+      },
+      {
+        "id": 1022,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-18.jpg",
+        "title": "Hand Gloves",
+        "material": "Rubber",
+        "brand": "Exborders",
+        "productType": "Medical",
+        "price": 65
+      },
+      {
+        "id": 1023,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-16.jpg",
+        "title": "N95 Mask",
+        "material": "Fabric",
+        "brand": "Exborders",
+        "productType": "Medical",
+        "price": 55
+      },
+      {
+        "id": 1024,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-17.jpg",
+        "title": "3 Ply Mask Box",
+        "material": "Fabric",
+        "brand": "Dr. Care",
+        "productType": "Medical",
+        "price": 125
+      },
+      {
+        "id": 1025,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-19.jpg",
+        "title": "Surgical Dress",
+        "material": "Fabric",
+        "brand": "Exborders",
+        "productType": "Medical",
+        "price": 235
+      },
+      {
+        "id": 1026,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-3-1.jpg",
+        "title": "Non-Touch Thermometer",
+        "material": "Plastic",
+        "brand": "Accu-Chek",
+        "productType": "Medical",
+        "price": 95
+      },
+      {
+        "id": 1027,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-4-1.jpg",
+        "title": "Object Thermometer",
+        "material": "Plastic",
+        "brand": "Exborders",
+        "productType": "Medical",
+        "price": 185
+      },
+      {
+        "id": 1028,
+        "image": "https://medik.wpengine.com/wp-content/uploads/2020/05/shop-4-2-1.jpg",
+        "title": "LCD Thermometer",
+        "material": "Plastic",
+        "brand": "Accu-Chek,",
+        "productType": "Medical",
+        "price": 200
+      }
+    ]
+  }
