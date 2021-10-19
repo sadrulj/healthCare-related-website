@@ -6,7 +6,7 @@
         "title": "Vitamin C Tablet",
         "material": "Plastic",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 60
       },
       {
@@ -15,7 +15,7 @@
         "title": "Vitamin D3",
         "material": "Steel",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 40
       },
       {
@@ -24,7 +24,7 @@
         "title": "Folic Acid",
         "material": "Plastic",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 89
       },
       {
@@ -33,7 +33,7 @@
         "title": "Zinc Tablet",
         "material": "Plastic",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 40
       },
       {
@@ -42,7 +42,7 @@
         "title": "Vitamin B12",
         "material": "steel",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 45
       },
       {
@@ -51,7 +51,7 @@
         "title": "Vaccine",
         "material": "Glass",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 777
       },
       {
@@ -60,7 +60,7 @@
         "title": "Herbal Sanitizer",
         "material": "Rubber",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 65
       },
       {
@@ -69,7 +69,7 @@
         "title": "Antibiotic",
         "material": "Glass",
         "brand": "Accu-Chek",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 45
       },
       {
@@ -78,7 +78,7 @@
         "title": "Calcium Tablet",
         "material": "Rubber",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 30
       },
       {
@@ -87,7 +87,7 @@
         "title": "Band-Aid",
         "material": "Fabric",
         "brand": "Accu-Chek",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 25
       },
       {
@@ -96,7 +96,7 @@
         "title": "Classic Stethoscope",
         "material": "Steel",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Equipment",
         "price": 455
       },
       {
@@ -105,7 +105,7 @@
         "title": "Sanitizer Gel",
         "material": "Plastic",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 55
       },
       {
@@ -114,7 +114,7 @@
         "title": "Portable Nebulizer",
         "material": "Plastic",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Equipment",
         "price": 1500
       },
       {
@@ -123,7 +123,7 @@
         "title": "Facial Tissue",
         "material": "Fabric",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 35
       },
       {
@@ -132,7 +132,7 @@
         "title": "Grip Bandage",
         "material": "Fabric",
         "brand": "Exborders",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 75
       },
       {
@@ -141,7 +141,7 @@
         "title": "First Aid Kit",
         "material": "Rubber",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Equipment",
         "price": 550
       },
       {
@@ -150,7 +150,7 @@
         "title": "Hand Gloves",
         "material": "Rubber",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 35
       },
       {
@@ -159,7 +159,7 @@
         "title": "Patient Monitor",
         "material": "Plastic",
         "brand": "Staedtler",
-        "productType": "Medical",
+        "productType": "Equipment",
         "price": 3500
       },
       {
@@ -168,7 +168,7 @@
         "title": "Non Contact Thermometer",
         "material": "Plastic",
         "brand": "Accu-Chek",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 200
       },
       {
@@ -177,7 +177,7 @@
         "title": "Thermometer",
         "material": "Plastic",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 135
       },
       {
@@ -186,7 +186,7 @@
         "title": "Iron Tablet",
         "material": "Rubber",
         "brand": "Accu-Chek",
-        "productType": "Medical",
+        "productType": "Medicine",
         "price": 90
       },
       {
@@ -195,7 +195,7 @@
         "title": "Hand Gloves",
         "material": "Rubber",
         "brand": "Exborders",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 65
       },
       {
@@ -204,7 +204,7 @@
         "title": "N95 Mask",
         "material": "Fabric",
         "brand": "Exborders",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 55
       },
       {
@@ -213,7 +213,7 @@
         "title": "3 Ply Mask Box",
         "material": "Fabric",
         "brand": "Dr. Care",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 125
       },
       {
@@ -222,7 +222,7 @@
         "title": "Surgical Dress",
         "material": "Fabric",
         "brand": "Exborders",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 235
       },
       {
@@ -231,7 +231,7 @@
         "title": "Non-Touch Thermometer",
         "material": "Plastic",
         "brand": "Accu-Chek",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 95
       },
       {
@@ -240,7 +240,7 @@
         "title": "Object Thermometer",
         "material": "Plastic",
         "brand": "Exborders",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 185
       },
       {
@@ -249,7 +249,7 @@
         "title": "LCD Thermometer",
         "material": "Plastic",
         "brand": "Accu-Chek,",
-        "productType": "Medical",
+        "productType": "Accessories",
         "price": 200
       }
     ]

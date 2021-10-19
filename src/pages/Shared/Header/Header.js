@@ -9,7 +9,7 @@ function Header() {
   console.log(user);
   return (
     <div>
-      <nav className="bg-white-800">
+      <nav className="bg-white-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -45,20 +45,20 @@ function Header() {
                 </div>
               </div>
               <div className="flex items-center justify-content-between">
-                {user.email ? (
-                  <Link
-                    to="/login"
-                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Login
-                  </Link>
-                ) : (
+                {user?.name ? (
                   <button
                     onClick={logOut}
                     className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Logout
                   </button>
+                ) : (
+                  <Link
+                    to="/login"
+                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Login
+                  </Link>
                 )}
                 <h2 className="text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                   SignIn as: {user.displayName}
