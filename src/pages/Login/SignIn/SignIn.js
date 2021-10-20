@@ -2,7 +2,16 @@ import React from "react";
 import useAuth from "../../../hooks/useAuth";
 
 const SignIn = () => {
-  const { signInUsingGoogle, signInWithGitHub } = useAuth();
+  const {
+    signInUsingGoogle,
+    handleEmailChange,
+    handlePasswordChange,
+    handleRegistration,
+    processLogin,
+    toggleLogin,
+    isLogin,
+  } = useAuth();
+  console.log(isLogin);
   return (
     <div>
       <section className="bg-blueGray-500">
@@ -15,18 +24,6 @@ const SignIn = () => {
                 </h6>
               </div>
               <div className="btn-wrapper text-center">
-                <button
-                  onClick={signInWithGitHub}
-                  className="bg-white active:bg-gray-50 text-gray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
-                  type="button"
-                >
-                  <img
-                    alt=""
-                    className="w-5 mr-1"
-                    src="https://demos.creative-tim.com/notus-js/assets/img/github.svg"
-                  />
-                  Github
-                </button>
                 <button
                   onClick={signInUsingGoogle}
                   className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
@@ -43,55 +40,60 @@ const SignIn = () => {
               <hr className="mt-6 border-b-1 border-gray-300" />
             </div>
             <div className="flex-auto px-4 lg:px-10 py-10 pt-0">
-              <div className="text-gray-400 text-center mb-3 font-bold">
-                <small>Or sign in with credentials</small>
+              <div className="text-gray-400 text-center mb-3 text-2xl font-bold">
+                <small>
+                  Or {isLogin ? "sign in" : "Register"} with credentials
+                </small>
               </div>
-              <form>
+              <form onSubmit={processLogin}>
                 <div className="relative w-full mb-3">
                   <label
                     className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="grid-password"
+                    htmlFor="grid-password"
                   >
                     Email
                   </label>
                   <input
+                    onChange={handleEmailChange}
                     type="email"
                     className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     placeholder="Email"
+                    required
                   />
-                </div>
-                <div className="relative w-full mb-3">
                   <label
-                    className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                    for="grid-password"
+                    className="block uppercase text-blueGray-600 text-xs font-bold mb-2 pt-3"
+                    htmlFor="grid-password"
                   >
                     Password
                   </label>
                   <input
+                    onBlur={handlePasswordChange}
                     type="password"
                     className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
                     placeholder="Password"
+                    required
                   />
                 </div>
                 <div>
                   <label className="inline-flex items-center cursor-pointer">
                     <input
+                      onChange={toggleLogin}
                       id="customCheckLogin"
                       type="checkbox"
                       className="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
                     />
                     <span className="ml-2 text-sm font-semibold text-blueGray-600">
-                      Remember me
+                      Already Registered?
                     </span>
                   </label>
                 </div>
                 <div className="text-center mt-6">
                   <button
+                    onClick={handleRegistration}
                     className="bg-gray-800 text-white active:bg-gray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                    type="button"
+                    type="submit"
                   >
-                    {" "}
-                    Sign In{" "}
+                    {isLogin ? "Log In" : "Register"}{" "}
                   </button>
                 </div>
               </form>

@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { user, logOut } = useAuth();
-  console.log(user);
+  const { user, isLogin, logOut } = useAuth();
   return (
     <div>
       <nav className="bg-white-200">
@@ -14,41 +13,42 @@ function Header() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <a href="/home">
-                  <h1 className="text-4xl text-gray-900 font-bold">
-                    MediCare+
+                <Link to="/home">
+                  <h1 className="text-4xl text-blue-800 font-bold">
+                    Medi<span className="text-green-700 font-bolder">Care</span>
+                    +
                   </h1>
-                </a>
+                </Link>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a
-                    href="/home"
+                  <Link
+                    to="/home"
                     className=" hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/about"
+                  <Link
+                    to="/about"
                     className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center justify-content-between">
-                {user?.name ? (
+                {user.displayName ? (
                   <button
                     onClick={logOut}
-                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-700  hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Logout
                   </button>
@@ -61,7 +61,7 @@ function Header() {
                   </Link>
                 )}
                 <h2 className="text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                  SignIn as: {user.displayName}
+                  SignIn as: {isLogin ? user.displayName : user.email}
                 </h2>
               </div>
             </div>

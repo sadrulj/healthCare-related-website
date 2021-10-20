@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Medicine = ({ item }) => {
-  const { image, title, price, productType, material, brand } = item;
+  const { id, image, title, price, productType, material, brand } = item;
   return (
     <div className="wrapper antialiased text-gray-900 gap-x-3 p-5">
       <div>
@@ -29,7 +30,9 @@ const Medicine = ({ item }) => {
             <div className="mt-1 text-left font-semibold">$ {price}</div>
             <div className="mt-4 text-right">
               <span className="text-teal-600 text-md font-semibold bg-pink-400 rounded text-white p-4">
-                <button>Buy Now</button>
+                <Link to={`/services/${id}`}>
+                  <button>Details</button>
+                </Link>
               </span>
             </div>
           </div>

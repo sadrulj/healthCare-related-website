@@ -6,11 +6,13 @@ import Medicine from "./Service/Medicine";
 const ServicesShow = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
   const [items, setItems] = useState([]);
+
   useEffect(() => {
     fetch("./medication.json")
       .then((res) => res.json())
       .then((data) => setItems(data.medication));
   }, []);
+
   return (
     <>
       <div className="container flex flex-wrap mx-auto">

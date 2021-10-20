@@ -1,12 +1,11 @@
-{
-  "medication": [
+[
     {
       "id": 1001,
       "image": "https://medik.wpengine.com/wp-content/uploads/2019/01/5-15.jpg",
       "title": "Vitamin C Tablet",
       "material": "Plastic",
       "brand": "Dr. Care",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 60,
       "desc": "Vitamin C is an essential vitamin that must be consumed in the diet. Good sources include fresh fruits and vegetables, especially citrus fruits.Vitamin C is needed for the body to develop and function properly. It plays an important role in immune function. Most experts recommend getting vitamin C from the diet rather than taking supplements. Fresh oranges and fresh-squeezed orange juice are good sources."
     },
@@ -16,7 +15,7 @@
       "title": "Vitamin D3",
       "material": "Steel",
       "brand": "Dr. Care",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 40,
       "desc": "Vitamin D is used to treat and prevent bone disorders (such as rickets, osteomalacia). Vitamin D is made by the body when skin is exposed to sunlight. Sunscreen, protective clothing, limited exposure to sunlight, dark skin, and age may prevent getting enough vitamin D from the sun."
     },
@@ -26,7 +25,7 @@
       "title": "Folic Acid",
       "material": "Plastic",
       "brand": "Dr. Care",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 89,
       "desc": "Folic acid helps make healthy red blood cells, which carry oxygen around the body. If we do not have enough folic acid, the body can make abnormally large red blood cells that do not work properly. This causes folate deficiency anaemia, which can cause tiredness and other symptoms."
     },
@@ -36,7 +35,7 @@
       "title": "Zinc Tablet",
       "material": "Plastic",
       "brand": "Dr. Care",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 40,
       "desc": "Available in many different forms, zinc supplements are often used to treat an array of ailments. Research shows that this mineral may enhance immune function, stabilize blood sugar levels, and help keep your skin, eyes, and heart healthy."
     },
@@ -46,7 +45,7 @@
       "title": "Vitamin B12",
       "material": "steel",
       "brand": "Staedtler",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 45,
       "desc": "Vitamin B12 is a nutrient that helps keep your body's blood and nerve cells healthy and helps make DNA, the genetic material in all of your cells. Vitamin B12 also helps prevent megaloblastic anemia, a blood condition that makes people tired and weak."
     },
@@ -56,7 +55,7 @@
       "title": "Vaccine",
       "material": "Glass",
       "brand": "Staedtler",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 777,
       "desc": "A substance used to stimulate the production of antibodies and provide immunity against one or several diseases, prepared from the causative agent of a disease, its products, or a synthetic substitute, treated to act as an antigen without inducing the disease."
     },
@@ -66,7 +65,7 @@
       "title": "Herbal Sanitizer",
       "material": "Rubber",
       "brand": "Dr. Care",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 65,
       "desc": "Made from lemongrass, neem, lemon and tulsi. This herbal sanitizer has antibacterial, fungicidal and antimicrobial properties, which help keep viruses, bacteria and fungus at bay."
     },
@@ -76,7 +75,7 @@
       "title": "Antibiotic",
       "material": "Glass",
       "brand": "Accu-Chek",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 45,
       "desc": "Antibiotics are used to treat or prevent some types of bacterial infection. They work by killing bacteria or preventing them from spreading. But they do not work for everything."
     },
@@ -86,7 +85,7 @@
       "title": "Calcium Tablet",
       "material": "Rubber",
       "brand": "Dr. Care",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 30,
       "desc": "Calcium is a mineral that’s well-known for its key role in bone health. Calcium also helps maintain heart rhythm, muscle function, and more. Because of its health benefits, calcium is one of the best-selling supplements."
     },
@@ -96,7 +95,7 @@
       "title": "Band-Aid",
       "material": "Fabric",
       "brand": "Accu-Chek",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 25,
       "desc": "Band-Aid is a brand of adhesive bandages distributed by the American pharmaceutical and medical-devices company Johnson & Johnson. Invented in 1920, the brand has become a generic term for adhesive bandages in countries such as the United States, Canada, Australia, the Philippines, and others."
     },
@@ -106,7 +105,7 @@
       "title": "Classic Stethoscope",
       "material": "Steel",
       "brand": "Staedtler",
-      "productType": "Equipment",
+      "productType": "Medical",
       "price": 455,
       "desc": "The stethoscope is an acoustic medical device for auscultation, or listening to internal sounds of an animal or human body. It typically has a small disc-shaped resonator that is placed against the skin, and one or two tubes connected to two earpieces. A stethoscope can be used to listen to the sounds made by the heart, lungs or intestines, as well as blood flow in arteries and veins. In combination with a manual sphygmomanometer, it is commonly used when measuring blood pressure."
     },
@@ -116,7 +115,7 @@
       "title": "Sanitizer Gel",
       "material": "Plastic",
       "brand": "Staedtler",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 55,
       "desc": "Hand sanitizer (also known as hand antiseptic, hand disinfectant, hand rub, or handrub) is a liquid, gel or foam generally used to kill many viruses/bacteria/microorganisms on the hands. In most settings, hand washing with soap and water is generally preferred. Hand sanitizer is less effective at killing certain kinds of germs, such as norovirus and Clostridium difficile, and unlike hand washing, it cannot physically remove harmful chemicals. People may incorrectly wipe off hand sanitizer before it has dried, and some are less effective because their alcohol concentrations are too low."
     },
@@ -126,7 +125,7 @@
       "title": "Portable Nebulizer",
       "material": "Plastic",
       "brand": "Staedtler",
-      "productType": "Equipment",
+      "productType": "Medical",
       "price": 1500,
       "desc": "A nebulizer changes medication from a liquid to a mist so you can inhale it into your lungs. Nebulizers come in home (tabletop) and portable models. Home nebulizers are larger, and you have to plug them into an electrical outlet. Portable nebulizers run on batteries, or you can plug them into a car outlet."
     },
@@ -136,7 +135,7 @@
       "title": "Facial Tissue",
       "material": "Fabric",
       "brand": "Staedtler",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 35,
       "desc": "Facial tissues are soft, lightweight disposable paper used for the face, typically to blow one's nose. Facial tissues act as a replacement of a handkerchief and have the advantage of being disposable, rather than needing washing, and are said to be more hygienic as the used cloths are not left in pockets."
     },
@@ -146,7 +145,7 @@
       "title": "Grip Bandage",
       "material": "Fabric",
       "brand": "Exborders",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 75,
       "desc": "If you've injured your hand, bandages can reduce swelling, restrict movement, and provide support to the muscles, bones, and joints. Certain hand injuries may heal better when bandaged. These include: fractures, sprains, and strains."
     },
@@ -156,7 +155,7 @@
       "title": "First Aid Kit",
       "material": "Rubber",
       "brand": "Staedtler",
-      "productType": "Equipment",
+      "productType": "Medical",
       "price": 550,
       "desc": "A first aid kit is a collection of supplies and equipment that is used to give medical treatment. There is a wide variation in the contents of first aid kits based on the knowledge and experience of those putting it together, the differing first aid requirements of the area where it may be used, and variations in legislation or regulation in a given area."
     },
@@ -166,7 +165,7 @@
       "title": "Hand Gloves",
       "material": "Rubber",
       "brand": "Dr. Care",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 35,
       "desc": "Latex and nitrile gloves are commonly used when dealing with high-risk situations involving blood, bodily fluids or patients with infectious diseases. Surgical gloves are higher quality and designed specifically for the accuracy and sensitivity required by surgeons."
     },
@@ -176,7 +175,7 @@
       "title": "Patient Monitor",
       "material": "Plastic",
       "brand": "Staedtler",
-      "productType": "Equipment",
+      "productType": "Medical",
       "price": 3500,
       "desc": "Patient monitor is used in health care to check the vital signs of a patient and taking action if their health show any sign of getting worse and to avoid any serious problems.Patient monitor is also referred as EKG monitor, ECG monitor, or anesthesia monitor."
     },
@@ -186,7 +185,7 @@
       "title": "Non Contact Thermometer",
       "material": "Plastic",
       "brand": "Accu-Chek",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 200,
       "desc": "Research has shown that, when used correctly, infrared or no-contact thermometers are just as accurate as oral or rectal thermometers. No-contact thermometers are popular among pediatricians, as kids often squirm around when trying to get a temperature read, but it also holds true in mass temperature screenings."
     },
@@ -196,7 +195,7 @@
       "title": "Thermometer",
       "material": "Plastic",
       "brand": "Dr. Care",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 135,
       "desc": "A thermometer is a device that is used to measure the temperature of a body. Common types of thermometers are Medical thermometers, Infrared thermometers, Mercury thermometers, thermocouple thermometers, laboratory thermometers, Bimetallic strip thermometers, Pyrometers."
     },
@@ -206,7 +205,7 @@
       "title": "Iron Tablet",
       "material": "Rubber",
       "brand": "Accu-Chek",
-      "productType": "Medicine",
+      "productType": "Medical",
       "price": 90,
       "desc": "Iron supplements, also known as iron pills, are commonly used to treat anemia (a condition characterized by the lack of healthy red blood cells or hemoglobin). Iron plays a key role in making red blood cells that transport oxygen molecules throughout the body."
     },
@@ -216,7 +215,7 @@
       "title": "Hand Gloves",
       "material": "Rubber",
       "brand": "Exborders",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 65,
       "desc": "Gloves are commonly used when dealing with high-risk situations involving blood, bodily fluids or patients with infectious diseases. Surgical gloves are higher quality and designed specifically for the accuracy and sensitivity required by surgeons."
     },
@@ -226,7 +225,7 @@
       "title": "N95 Mask",
       "material": "Fabric",
       "brand": "Exborders",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 55,
       "desc": "An N95 respirator is a respiratory protective device designed to achieve a very close facial fit and very efficient filtration of airborne particles. ... Surgical N95 Respirators are commonly used in healthcare settings and are a subset of N95 Filtering Facepiece Respirators (FFRs), often referred to as N95s."
     },
@@ -236,7 +235,7 @@
       "title": "3 Ply Mask Box",
       "material": "Fabric",
       "brand": "Dr. Care",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 125,
       "desc": "A surgical mask, also known as a medical face mask, is a personal protective equipment worn by health professionals during medical procedures. When worn correctly, it prevents airborne transmission of infections between patients and/or treating personnel by blocking the movement of pathogens (primarily bacteria and viruses) shed in respiratory droplets and aerosols from the wearer's mouth and nose."
     },
@@ -246,7 +245,7 @@
       "title": "Surgical Dress",
       "material": "Fabric",
       "brand": "Exborders",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 235,
       "desc": "Scrubs are also readily available in stores to the general public, too, he writes. ... ACS also suggests that surgeons and other staff members avoid wearing scrubs outside of the hospital, and recommends that putting OR staff in “distinctive, colored scrub suits” as a possible deterrent."
     },
@@ -256,7 +255,7 @@
       "title": "Non-Touch Thermometer",
       "material": "Plastic",
       "brand": "Accu-Chek",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 95,
       "desc": "They are sometimes called laser thermometers as a laser is used to help aim the thermometer, or non-contact thermometers or temperature guns, to describe the device's ability to measure temperature from a distance. ... This permits temperature measurement from a distance without contact with the object to be measured."
     },
@@ -266,7 +265,7 @@
       "title": "Object Thermometer",
       "material": "Plastic",
       "brand": "Exborders",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 185,
       "desc": "Object temperature mode is to test surface temperature of an object. The temperature get from forehead under this mode is merely temperature of forehead surface but not body temperature."
     },
@@ -276,9 +275,8 @@
       "title": "LCD Thermometer",
       "material": "Plastic",
       "brand": "Accu-Chek,",
-      "productType": "Accessories",
+      "productType": "Medical",
       "price": 200,
       "desc": "This LED thermometer project uses a standard precision LM34 temperature sensor that has a linear voltage output based on the room temperature in Fahrenheit. If you want to display the temperature in Celcius, you can use the LM35 temperature sensor."
     }
   ]
-}

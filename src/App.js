@@ -6,6 +6,9 @@ import SignIn from "./pages/Login/SignIn/SignIn";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NotFound from "./pages/Shared/NotFound/NotFound";
 import AuthProvider from "./contexts/AuthProvider";
+import SingleService from "./pages/Home/Services/SingleService/SingleService";
+import About from "./pages/Home/About/About";
+import PrivateRoute from "./pages/Login/PrivateRoute/PrivateRoute";
 
 function App() {
   return (
@@ -23,6 +26,12 @@ function App() {
             <Route path="/login">
               <SignIn></SignIn>
             </Route>
+            <Route path="/about">
+              <About></About>
+            </Route>
+            <PrivateRoute path="/services/:id">
+              <SingleService></SingleService>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
