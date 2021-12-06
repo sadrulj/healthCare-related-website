@@ -22,15 +22,17 @@ const useFirebase = () => {
   const [isLogin, setIsLogin] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  console.log(user, email, password);
+  // console.log(user, email, password);
   const googleProvider = new GoogleAuthProvider();
   const auth = getAuth();
 
-  const signInUsingGoogle = () => {
+  const signInUsingGoogle = (location, history) => {
     setIsLoading(true);
     signInWithPopup(auth, googleProvider)
       .then((result) => {
         setUser(result.user);
+        const destination = location?.state?.from || "/home";
+        history.replace(destination);
       })
       .catch((error) => {
         setError(error.message);
@@ -38,9 +40,7 @@ const useFirebase = () => {
       .finally(() => setIsLoading(false));
   };
   const toggleLogin = (e) => {
-    {
-      toggleLogin ? <SignIn></SignIn> : <SignUp></SignUp>;
-    }
+    toggleLogin ? <SignIn /> : <SignUp />;
     setIsLogin(e.target.checked);
   };
   const handleEmailChange = (e) => {
