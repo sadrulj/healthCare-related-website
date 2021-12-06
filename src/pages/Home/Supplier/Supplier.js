@@ -2,10 +2,10 @@ import React from "react";
 
 const Supplier = () => {
   return (
-    <div className="container">
+    <div className="container  mx-auto">
       <h2 className="text-4xl text-left ml-40 p-3">Our Clients...</h2>
-      <div className="flex flex-wrap justify-center">
-        <div className="inline-flex w-8/12 sm:w-9/12 px-4 gap-x-4 my-4">
+      <div className="flex justify-center">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-4">
           <img
             src="https://medik.wpengine.com/wp-content/uploads/2020/05/client-8.png"
             alt=""

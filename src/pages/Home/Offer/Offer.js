@@ -4,7 +4,7 @@ import image2 from "../../../images/gear.png";
 
 const Offer = () => {
   return (
-    <div className="flex my-10 gap-x-8 mx-80">
+    <div className="container grid grid-cols-2 sm:grid-cols-2 gap-4 mx-auto my-5">
       <div className="shadow-md rounded-md bg-blue-400">
         <div className="items-center grid grid-flow-col">
           <div className="p-4 ml-2">

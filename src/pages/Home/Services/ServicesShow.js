@@ -98,7 +98,11 @@ const ServicesShow = ({ color }) => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div
-                  className={openTab === 1 ? "grid grid-cols-3 p-6" : "hidden"}
+                  className={
+                    openTab === 1
+                      ? "grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3"
+                      : "hidden"
+                  }
                   id="medicine"
                 >
                   {items
@@ -108,7 +112,11 @@ const ServicesShow = ({ color }) => {
                     ))}
                 </div>
                 <div
-                  className={openTab === 2 ? "grid grid-cols-3 p-6" : "hidden"}
+                  className={
+                    openTab === 2
+                      ? "grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3"
+                      : "hidden"
+                  }
                   id="equipment"
                 >
                   {items
@@ -118,7 +126,11 @@ const ServicesShow = ({ color }) => {
                     ))}
                 </div>
                 <div
-                  className={openTab === 3 ? "grid grid-cols-3 p-6" : "hidden"}
+                  className={
+                    openTab === 3
+                      ? "grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3"
+                      : "hidden"
+                  }
                   id="accessories"
                 >
                   {items

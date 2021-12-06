@@ -24,7 +24,7 @@ function Header() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
                     to="/home"
-                    className=" hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </Link>
@@ -46,12 +46,17 @@ function Header() {
               </div>
               <div className="flex items-center justify-content-between">
                 {user.displayName ? (
-                  <button
-                    onClick={logOut}
-                    className="text-gray-700  hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Logout
-                  </button>
+                  <div className="flex items-center justify-content-between">
+                    <button
+                      onClick={logOut}
+                      className="text-gray-700  hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    >
+                      Logout
+                    </button>
+                    <h2 className="text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                      SignIn as: {user.displayName}
+                    </h2>
+                  </div>
                 ) : (
                   <Link
                     to="/login"
@@ -60,9 +65,6 @@ function Header() {
                     Login
                   </Link>
                 )}
-                <h2 className="text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                  SignIn as: {isLogin ? user.displayName : user.email}
-                </h2>
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
@@ -126,21 +128,21 @@ function Header() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="/home"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
                   href="/about"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
                 </a>
 
                 <a
                   href="/contact"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
                 </a>

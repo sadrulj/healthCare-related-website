@@ -4,7 +4,7 @@ const SpecialOffer = ({ item }) => {
   const { brand, title, image, price, productType } = item;
   return (
     <div>
-      <div className="min-h-screen bg-gray-100 flex justify-center items-center grid-rows-1 grid-cols-4">
+      <div className="min-h-screen bg-gray-100 flex justify-center items-center grid-rows-1 grid-cols-3">
         <div className="max-w-xs container bg-white text-left rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
           <div>
             <span className="text-white text-xs font-bold text-left rounded-lg bg-green-500 inline-block mt-4 ml-4 py-1.5 px-4">

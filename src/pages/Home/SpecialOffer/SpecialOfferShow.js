@@ -11,7 +11,7 @@ const SpecialOfferShow = () => {
   return (
     <div>
       <h2 className="text-4xl text-left ml-40 p-3">Deal Of The Day</h2>
-      <div className="container w-full mx-auto text-center bg-white border-2 border-blue-300 border-solid h-2/4 rounded-xl bg-blend-overlay grid grid-rows-1 grid-flow-col">
+      <div className="container mx-auto border-2 border-blue-300 border-solid rounded-xl grid sm:grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
         {medication.slice(0, 3).map((item) => (
           <SpecialOffer key={item.id} item={item}></SpecialOffer>
         ))}
