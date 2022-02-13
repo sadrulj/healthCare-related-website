@@ -2,7 +2,6 @@ import React from "react";
 import Banner from "./Banner/Banner";
 import Offer from "./Offer/Offer";
 import ServicesShow from "./Services/ServicesShow";
-import Newsletter from "./Newsletter/Newsletter";
 import SpecialOfferShow from "./SpecialOffer/SpecialOfferShow";
 import Supplier from "./Supplier/Supplier";
 

@@ -8,11 +8,10 @@ const ServicesShow = ({ color }) => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("./medication.json")
+    fetch("https://peaceful-refuge-69200.herokuapp.com/products/")
       .then((res) => res.json())
-      .then((data) => setItems(data.medication));
+      .then((data) => setItems(data));
   }, []);
-
   return (
     <>
       <div className="container flex flex-wrap mx-auto">
@@ -108,7 +107,7 @@ const ServicesShow = ({ color }) => {
                   {items
                     .filter((item) => item.productType === "Medicine")
                     .map((item) => (
-                      <Medicine key={item.id} item={item}></Medicine>
+                      <Medicine key={item._id} item={item}></Medicine>
                     ))}
                 </div>
                 <div
@@ -122,7 +121,7 @@ const ServicesShow = ({ color }) => {
                   {items
                     .filter((item) => item.productType === "Equipment")
                     .map((item) => (
-                      <Equipment key={item.id} item={item}></Equipment>
+                      <Equipment key={item._id} item={item}></Equipment>
                     ))}
                 </div>
                 <div
@@ -136,7 +135,7 @@ const ServicesShow = ({ color }) => {
                   {items
                     .filter((item) => item.productType === "Accessories")
                     .map((item) => (
-                      <Accessories key={item.id} item={item}></Accessories>
+                      <Accessories key={item._id} item={item}></Accessories>
                     ))}
                 </div>
               </div>

@@ -5,84 +5,86 @@ import { Link } from "react-router-dom";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const { user, isLogin, logOut } = useAuth();
+  const { user, logOut } = useAuth();
+  const cart = JSON.parse(localStorage.getItem("cart") || "[]");
   return (
     <div>
       <nav className="bg-white-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <Link to="/home">
-                  <h1 className="text-4xl text-blue-800 font-bold">
-                    Medi<span className="text-green-700 font-bolder">Care</span>
-                    +
-                  </h1>
+        <div className="flex items-center justify-around h-16">
+          <div className="flex items-center justify-between">
+            <div className="flex-shrink-0">
+              <Link to="/home">
+                <h1 className="text-4xl text-blue-800 font-bold">
+                  Medi<span className="text-green-700 font-bolder">Care</span>+
+                </h1>
+              </Link>
+            </div>
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
+                <Link
+                  to="/home"
+                  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Home
+                </Link>
+
+                <Link
+                  to="/about"
+                  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  About
+                </Link>
+
+                <Link
+                  to="/contact"
+                  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Contact
                 </Link>
               </div>
-              <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
-                  <Link
-                    to="/home"
-                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Home
-                  </Link>
-
-                  <Link
-                    to="/about"
-                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    About
-                  </Link>
-
-                  <Link
-                    to="/contact"
-                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Contact
-                  </Link>
-                </div>
-              </div>
-              <div className="flex items-center justify-content-between">
-                {user.displayName ? (
-                  <div className="flex items-center justify-content-between">
+            </div>
+            <div className="flex items-center justify-end ">
+              {user.displayName ? (
+                <div className="flex items-center justify-content-between">
+                  <div>
                     <button
                       onClick={logOut}
                       className="text-gray-700  hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
                       Logout
                     </button>
-                    <h2 className="text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                  </div>
+                  <div className="shrink">
+                    <h2 className="text-gray-700 md:px-3 px-0 py-2 rounded-md text-sm font-medium invisible md:visible">
                       SignIn as: {user.displayName}
                     </h2>
-                    <div>
-                      <li class="font-sans block mt-4 lg:inline-block lg:mt-0 lg:ml-6 align-middle text-black hover:text-gray-700">
-                        <Link to="#" role="button" class="relative flex">
-                          <svg
-                            class="flex-1 w-8 h-8 fill-current"
-                            viewbox="0 0 24 24"
-                          >
-                            <path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z" />
-                          </svg>
-                          <span class="absolute right-0 top-0 rounded-full bg-red-600 w-4 h-4 top right p-0 m-0 text-white font-mono text-sm  leading-tight text-center">
-                            0
-                          </span>
-                        </Link>
-                      </li>
-                    </div>
                   </div>
-                ) : (
-                  <Link
-                    to="/login"
-                    className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Login
-                  </Link>
-                )}
-              </div>
+                  <div className="px-2">
+                    <li className="font-sans block mt-4 lg:inline-block lg:mt-0 lg:ml-6 align-middle text-black hover:text-gray-700">
+                      <Link to="/cart" role="button" className="relative flex">
+                        <svg
+                          className="flex-1 w-8 h-8 fill-current"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5.5C20.95,5.34 21,5.17 21,5A1,1 0 0,0 20,4H5.21L4.27,2M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z" />
+                        </svg>
+                        <span className="absolute right-0 top-0 rounded-full bg-red-600 w-4 h-4 top right p-0 m-0 text-white font-mono text-sm  leading-tight text-center">
+                          {cart.length}
+                        </span>
+                      </Link>
+                    </li>
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  to="/login"
+                  className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                >
+                  Login
+                </Link>
+              )}
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -161,6 +163,9 @@ function Header() {
                 >
                   Contact
                 </Link>
+                <h2 className="text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                  SignIn as: {user.displayName}
+                </h2>
               </div>
             </div>
           )}

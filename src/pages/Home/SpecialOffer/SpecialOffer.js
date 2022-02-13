@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SpecialOffer = ({ item }) => {
-  const { brand, title, image, price, productType } = item;
+  const { _id, brand, title, image, price, productType } = item;
   return (
     <div className="bg-gray-100 flex justify-center items-center grid-rows-1 grid-cols-3 m-4 p-4 rounded-lg">
       <div className="max-w-xs container bg-white text-left rounded-xl shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl">
@@ -32,11 +33,11 @@ const SpecialOffer = ({ item }) => {
           </div>
           <div className="flex space-x-2">
             <div className="flex space-x-1 items-center">
-              <a href="/">
+              <Link to={`/products/${_id}`}>
                 <button className="rounded-lg bg-blue-500 text-white py-2 px-2  cursor-pointer hover:underline">
                   Shop Now {"-->"}
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -9,6 +9,7 @@ import AuthProvider from "./contexts/AuthProvider";
 import SingleService from "./pages/Home/Services/SingleService/SingleService";
 import About from "./pages/Home/About/About";
 import PrivateRoute from "./pages/Login/PrivateRoute/PrivateRoute";
+import Cart from "./pages/Shared/Cart/Cart";
 
 function App() {
   return (
@@ -29,7 +30,13 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
-            <PrivateRoute path="/services/:id">
+            <Route path="/cart">
+              <Cart></Cart>
+            </Route>
+            {/* <Route path="/products">
+              <ServicesShow></ServicesShow>
+            </Route> */}
+            <PrivateRoute path="/products/:id">
               <SingleService></SingleService>
             </PrivateRoute>
             <Route path="*">
